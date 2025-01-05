@@ -6,7 +6,7 @@ const evaluateGrid = (grid: Grid): number => {
 
   // 1. Prioritize empty tiles (high weight to avoid getting stuck)
   const emptyTiles = grid.flat().filter(tile => tile === 0).length;
-  score += emptyTiles * 100;
+  score += emptyTiles * 10 * grid[0][0];
 
   // 2. Smoothness: Penalize differences between adjacent tiles
   for (let i = 0; i < 4; i++) {
