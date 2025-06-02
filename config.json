@@ -226,17 +226,17 @@
          "version" : "6.4"
       },
       {
-         "board" : "FP3ddddddd",
+         "board" : "FP3",
          "bootloaderAfterUnlock" : 0,
          "bootloaderKey" : "down",
          "bootloaderRelockable" : 1,
          "bootloaderUnlock" : "oem unlock",
-         "device" : "FP3dddddddd",
+         "device" : "FP3",
          "deviceAlternates" : "",
          "fastbootDir" : "iode-6.4-20250527-FP3-fastboot",
          "fastbootPackageHash" : "088fa5d279ee830385e35afda9d596353f42e5c60dbc3b5fe92716524f5dae82",
          "fastbootPackageSize" : 1739037584,
-         "marketName" : "Fairphone FP3ddddddd",
+         "marketName" : "Fairphone FP3",
          "urlFastbootPackage" : "https://gitlab.iode.tech/ota/release/-/raw/master/FP3/iode-6.4-20250527-FP3-fastboot.zip",
          "version" : "6.4",
          "unlockUrl" : "https://gitlab.iode.tech/ota/ota/-/raw/installer/config.json"
